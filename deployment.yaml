@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: purnachandrar/helloworld
+        image: purnachandrar/argocd-app:1.2
         resources:
           limits:
             memory: "128Mi"
